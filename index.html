@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Annadanam Vinay – AI & ML student, Python developer, and aspiring software engineer.">
+  <title>Annadanam Vinay | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Animated Background Particles -->
+  <div class="bg-particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;Vinay /&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting animate-on-scroll">Hello, I'm</p>
+        <h1 class="hero-name animate-on-scroll">Annadanam <span class="gradient-text">Vinay</span></h1>
+        <div class="hero-typewriter animate-on-scroll">
+          <span class="typewriter-label">I am a </span>
+          <span class="typewriter-text" id="typewriter"></span>
+          <span class="typewriter-cursor">|</span>
+        </div>
+        <p class="hero-description animate-on-scroll">
+          Motivated Computer Science student with a foundation in Python, web development, and SQL.
+          Eager to contribute to innovative software projects and gain hands-on experience with AI/cloud platforms.
+        </p>
+        <div class="hero-buttons animate-on-scroll">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Get In Touch
+          </a>
+        </div>
+        <div class="hero-socials animate-on-scroll">
+          <a href="https://github.com/VinayRoyal001" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/annadanam-vinay-5012b332a/" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:annadanamvinay@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual animate-on-scroll">
+        <div class="hero-avatar">
+          <div class="avatar-ring"></div>
+          <div class="avatar-inner">
+            <i class="fas fa-user-astronaut"></i>
+          </div>
+          <div class="orbit orbit-1"><span class="orbit-dot"><i class="fab fa-python"></i></span></div>
+          <div class="orbit orbit-2"><span class="orbit-dot"><i class="fas fa-database"></i></span></div>
+          <div class="orbit orbit-3"><span class="orbit-dot"><i class="fas fa-brain"></i></span></div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-text animate-on-scroll">
+          <p>
+            I'm a passionate <strong>B.Tech student</strong> specializing in
+            <strong>Artificial Intelligence & Machine Learning</strong> at
+            Annamacharya Institute of Technology & Sciences, Tirupati. I thrive on
+            solving complex problems and turning ideas into working software.
+          </p>
+          <p>
+            My journey in tech has given me hands-on experience with Python programming,
+            web technologies, and cloud platforms. I'm constantly learning and exploring
+            new technologies to stay at the cutting edge of software development.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Internships</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info animate-on-scroll">
+          <div class="info-card">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Kadapa, India</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Degree</span>
+                <span class="info-value">B.Tech AI & ML</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-language"></i>
+              <div>
+                <span class="info-label">Languages</span>
+                <span class="info-value">Telugu (Native), English (Professional)</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-lightbulb"></i>
+              <div>
+                <span class="info-label">Strengths</span>
+                <span class="info-value">Problem Solving, Communication, Adaptability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">02.</span> Technical Skills
+      </h2>
+      <div class="skills-grid">
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category-header">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+          </div>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <div class="skill-bar-info"><span>Python</span><span>75%</span></div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-info"><span>SQL</span><span>65%</span></div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="65"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category-header">
+            <div class="skill-icon"><i class="fas fa-globe"></i></div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+          </div>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <div class="skill-bar-info"><span>HTML</span><span>70%</span></div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-info"><span>CSS</span><span>65%</span></div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="65"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category animate-on-scroll">
+          <div class="skill-category-header">
+            <div class="skill-icon"><i class="fas fa-server"></i></div>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+          </div>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <div class="skill-bar-info"><span>MySQL</span><span>70%</span></div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="55"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">03.</span> Education
+      </h2>
+      <div class="timeline">
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>B.Tech – Artificial Intelligence & Machine Learning</h3>
+              <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2022 – 2026</span>
+            </div>
+            <p class="timeline-institution">
+              <i class="fas fa-university"></i> Annamacharya Institute of Technology & Sciences
+            </p>
+            <p class="timeline-description">
+              Studying core computer science subjects along with specialized courses in AI,
+              Machine Learning, Deep Learning, and Data Science. Active participant in
+              coding competitions and tech events.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">04.</span> Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/VinayRoyal001" target="_blank" rel="noopener" aria-label="View on GitHub"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Python OOP Applications</h3>
+          <p class="project-company"><i class="fas fa-building"></i> InternPe Internship</p>
+          <p class="project-description">
+            Built Python programming applications demonstrating Object-Oriented Programming
+            concepts including Variables, Loops, Functions, File Handling, Inheritance, and
+            Polymorphism. Strengthened Python through real-time coding.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>OOP</span>
+            <span>File Handling</span>
+          </div>
+        </div>
+        <div class="project-card animate-on-scroll">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/VinayRoyal001" target="_blank" rel="noopener" aria-label="View on GitHub"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">AI-Enhanced Software Development Lifecycle</h3>
+          <p class="project-company"><i class="fas fa-building"></i> Smart Bridge Internship</p>
+          <p class="project-description">
+            Explored how AI improves software development by automating tasks, predicting issues,
+            and enhancing quality. The project focused on making development faster, more accurate,
+            and efficient through AI integration.
+          </p>
+          <div class="project-tech">
+            <span>AI</span>
+            <span>SDLC</span>
+            <span>Automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">05.</span> Certifications
+      </h2>
+      <div class="cert-grid">
+        <div class="cert-card animate-on-scroll">
+          <div class="cert-icon"><i class="fab fa-google"></i></div>
+          <h3>GCCF</h3>
+          <p>Google Cloud Foundations</p>
+          <div class="cert-badge">Google</div>
+        </div>
+        <div class="cert-card animate-on-scroll">
+          <div class="cert-icon"><i class="fab fa-python"></i></div>
+          <h3>Joy of Computing</h3>
+          <p>Using Python</p>
+          <div class="cert-badge">NPTEL</div>
+        </div>
+        <div class="cert-card animate-on-scroll">
+          <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Wipro Talent Next</h3>
+          <p>3 Months Internship Certificate</p>
+          <div class="cert-badge">Wipro</div>
+        </div>
+        <div class="cert-card animate-on-scroll">
+          <div class="cert-icon"><i class="fas fa-brain"></i></div>
+          <h3>Generative AI</h3>
+          <p>IBM SkillsBuild</p>
+          <div class="cert-badge">IBM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">
+        <span class="section-number">06.</span> Get In Touch
+      </h2>
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <h3>Let's work together!</h3>
+          <p>I'm currently looking for opportunities to apply my skills. Whether you have a project,
+            an internship, or just want to say hi — feel free to reach out!</p>
+          <div class="contact-cards">
+            <a href="mailto:annadanamvinay@gmail.com" class="contact-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">annadanamvinay@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+919346000452" class="contact-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+91 9346000452</span>
+              </div>
+            </a>
+            <div class="contact-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Kadapa, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/VinayRoyal001" target="_blank" rel="noopener" class="social-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/annadanam-vinay-5012b332a/" target="_blank" rel="noopener"
+              class="social-link">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper animate-on-scroll">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Hey Vinay, I'd love to..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-logo">&lt;Vinay/&gt;</p>
+        <p class="footer-text">Designed & Built by Annadanam Vinay</p>
+        <p class="footer-copyright">&copy; 2026 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
